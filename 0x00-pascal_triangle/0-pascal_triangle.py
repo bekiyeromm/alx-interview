@@ -5,6 +5,7 @@
 
 
 def pascal_triangle(n):
+    """prints pascal triangle using n """
     if n <= 0:
         return []
 
