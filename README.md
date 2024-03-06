@@ -1,1 +1,1 @@
-0x00. Pascal's Triangle
+a repo for interview like questions
