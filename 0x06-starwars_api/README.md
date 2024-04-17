@@ -10,7 +10,7 @@ The “0. Star Wars Characters” project requires you to interact with an exter
 
 Understanding the basics of RESTful APIs and how to interact with them.
 Parsing JSON data returned by APIs.
-Working with APIs in JavaScript
+Working with APIs in JavaScript<br>
 3. [Asynchronous Programming](https://intranet.alxswe.com/rltoken/tdKMGJrRstCkXSReNfRFpQ):<br>
 
 Managing asynchronous operations with callbacks, promises, and async/await syntax.
@@ -18,11 +18,11 @@ Handling API response data asynchronously.
 Asynchronous Programming in JavaScript
 Command Line Arguments in Node.js:
 
-Using the process.argv array to access command-line arguments passed to a Node.js script.
+Using the process.argv array to access command-line arguments passed to a Node.js script.<br>
 4. [How to Parse Command Line Arguments in Node.js](https://intranet.alxswe.com/rltoken/oWBOWJZLF_D9GfOydPz6Kg)<br>
 Array Manipulation and Iteration:
 
-Iterating over arrays and manipulating data structures to format and display character names.
+Iterating over arrays and manipulating data structures to format and display character names.<br>
 5. [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)<br>
 By familiarizing yourself with these concepts and resources, you will be able to efficiently retrieve, process, and display Star Wars characters from the specified movie using the Star Wars API, demonstrating your ability to work with external APIs and manage asynchronous code in JavaScript.
 
@@ -63,10 +63,10 @@ Install request module and use it
 ###### mandatory
 Write a script that prints all characters of a Star Wars movie:
 
-    The first positional argument passed is the Movie ID - example: 3 = “Return of the Jedi”
-    Display one character name per line in the same order as the “characters” list in the /films/ endpoint
-    You must use the [Star wars API](https://intranet.alxswe.com/rltoken/gh_NaSUk9QlXHVoACFU-tg)<br>
-    You must use the <i>request</i> module
+    . The first positional argument passed is the Movie ID - example: 3 = “Return of the Jedi”
+    . Display one character name per line in the same order as the “characters” list in the /films/ endpoint
+    . You must use the [Star wars API](https://intranet.alxswe.com/rltoken/gh_NaSUk9QlXHVoACFU-tg)<br>
+    . You must use the request module
 
 
     alexa@ubuntu:~/0x06$ ./ 0-starwars_characters.js 3
