@@ -23,4 +23,15 @@ def rotate_2d_matrix(matrix):
     then reverse ech row
     """
     for row in matrix:
+        start = 0
+        end = len(row) - 1
+        while start < end:
+            """Swap elements at start and end positions"""
+            row[start], row[end] = row[end], row[start]
+            start += 1
+            end -= 1
+    """
+    we can use also builtin function reverse()
+    for row in matrix:
         row.reverse()
+    """
